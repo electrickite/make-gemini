@@ -8,10 +8,9 @@ and a POSIX-like environment.
 * POSIX core utilities
 
 The Makefile makes heavy use of GNU Make syntax and functions, so other
-make implementations will not work. The project was developed using GNU
-coreutils and uses at least a few non-POSIX command options (ex: the `-i` flag
-for `sed`). However, it should be possible to update the Makefile with flags
-for other systems.
+make implementations will not work. The project uses uses at least a few
+non-POSIX command options (ex: the `-i` flag for `sed`) but tries to be as
+cross-platform as possible. It has been tested on GNU/Linux and BSD/Mac.
 
 ## Use
 Create a directory to house your site source files and copy the Makefile to
