@@ -14,7 +14,7 @@ cross-platform as possible. It has been tested on GNU/Linux and BSD/Mac.
 
 ## Use
 Create a directory to house your site source files and copy the Makefile to
-it. Alternately, you can clone the project git reporsitory. Then:
+it. Alternately, you can clone the project git repository. Then:
 
     $ cd mysite
     $ make init
@@ -22,7 +22,7 @@ it. Alternately, you can clone the project git reporsitory. Then:
 
 A number of source directories and templates will be created as well as the
 `output` directory that contains the processed site files. The contents of
-`output` can then be copied to the root of your Gemini server document root.
+`output` can then be copied to your Gemini server document root.
 
 To remove all files created in `output`, run:
 
